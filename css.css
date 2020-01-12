@@ -1,24 +1,26 @@
 body{
-    color:#2c0a0a;
+    color:hsl(95, 94%, 49%);
     background:rgb(35, 25, 44);
     padding:0;
     margin:0%;
 }
 .test{
-    background-color: #65ac656b;
+    background-image: url('https://images.pexels.com/photos/3521349/pexels-photo-3521349.jpeg?cs=srgb&dl=person-holding-white-and-pink-floral-cassette-tape-3521349.jpg&fm=jpg');
+    background-size: cover;
     width:80%;
     height: 100vh;
     margin:.2rem 9%;    
     padding:2px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
 }
 .text{
     transition: .3s ;
     margin:4px;
 }
+a{
+    color: red;
+}
 .text:hover{
-    color:#f0d1d1;
+    color:#000000;
     font-size: large;
     cursor: pointer;
     letter-spacing: unset;
